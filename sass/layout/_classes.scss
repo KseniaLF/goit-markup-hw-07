@@ -1,21 +1,20 @@
 .classes {
   padding-bottom: 94px;
-
-  & .list {
-    margin-top: -30px;
-    margin-left: -30px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
 }
-.classes-item {
+.classes__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: -30px;
+  margin-left: -30px;
+}
+.classes__item {
   position: relative;
   flex-basis: calc((100% - 90px) / 3);
   margin-top: 30px;
   margin-left: 30px;
 }
-.classes-overlay {
+.classes__overlay {
   position: absolute;
   bottom: 0;
   left: 0;
