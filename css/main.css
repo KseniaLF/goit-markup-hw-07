@@ -421,7 +421,7 @@ img {
   margin-right: 50px;
 }
 
-.header-icon {
+.header-contact__icon {
   margin-right: 10px;
 }
 
@@ -435,7 +435,7 @@ img {
   background-size: cover;
 }
 
-.hero-title {
+.hero__title {
   margin-bottom: 30px;
   color: #ffffff;
   font-weight: 900;
@@ -476,7 +476,7 @@ img {
   padding-bottom: 94px;
 }
 
-.about-list {
+.about__list {
   display: flex;
   flex-wrap: wrap;
   /* flex-direction: row; */
@@ -487,34 +487,43 @@ img {
   margin-top: -30px;
 }
 
-.about-list-item {
+.about__list-item {
   margin-left: 30px;
   margin-top: 30px;
   flex-basis: calc((100% - 120px) / 4);
   /* flex-grow: 1; */
 }
 
-.about-list-text {
+.about__list-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.about__list-text {
   color: #757575;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
 
-.about-icon {
-  display: block;
-  width: 70px;
-  height: 70px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.about-icon-bg {
+.about__icon-bg {
   padding-top: 25px;
   padding-bottom: 25px;
   margin-bottom: 30px;
   background: #f5f4fa;
   border-radius: 4px;
+}
+
+.about__icon {
+  display: block;
+  width: 70px;
+  height: 70px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .classes {
